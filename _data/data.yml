@@ -24,39 +24,19 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    #languages:
-      - idiom: English
-        level: Native
+    languages:
+      - idiom:
+        level:
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    #interests:
-      - item: Climbing
+    interests:
+      - item:
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
-#education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+education:
+    - degree:
+      university:
+      time:
+      details:
 
 career-profile:
     title: Career Profile
