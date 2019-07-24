@@ -7,24 +7,24 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Jisu Bae
+    tagline: iOS Developer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: test@test.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
+    email: jb0819@gmail.com
+    phone: 010 8719 2353
+    website:  #do not add http://
+    linkedin: jisu-bae
+    github: jay-bae
+    gitlab: 
     bitbucket:
-    twitter: '@webjeda'
+    twitter: #'@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
+    #languages:
       - idiom: English
         level: Native
 
@@ -34,7 +34,7 @@ sidebar:
       - idiom: Spanish
         level: Professional
 
-    interests:
+    #interests:
       - item: Climbing
         link:
 
@@ -44,18 +44,7 @@ sidebar:
       - item: Cooking
         link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
-education:
+#education:
     - degree: MSc in Computer Science
       university: University of London
       time: 2011 - 2012
@@ -69,18 +58,16 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+career-profile:
+    title: Career Profile
+    summary: |
+      2007년 Front-end Engineer로 다음커뮤니케이션에 입사하여 카페, 블로그, 요즘 등 
+      커 뮤니티 서비스를 개발하며 5년 동안 Front-end 기술력을 쌓았고, 
+      2012년부터 iOS Engineer로 전향하여 요즘, 치즈, 카페앱을 개발하였습니다. 
+      2014년에는 다음커뮤니케 이션과 카카오와의 합병으로 커머스 조직으로 이동하여 카카오픽 개발과 
+      카카오스타일 앱을 신규로 제작하였습니다. 그 후 웹뷰 기반인 핫딜, 톡스토어, 선물하기 서비스를 개발하며 
+      커머스 도메인 경력을 쌓았습니다. 선물하기 개발팀에서는 Back-end 역할로 여러 프로젝트에 참여 하였으며 
+      분사로 인한 조직이동으로 포털앱개발팀으로 이동하여 다음 앱 개발을 담당하였습니다.
 
 experiences:
     - role: Lead Developer
