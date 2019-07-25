@@ -3,8 +3,10 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+    languages: False
+    interests: False
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
 
     # Profile information
     name: Jisu Bae
@@ -24,6 +26,12 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
+    education:
+      - degree:
+        university:
+        time:
+        details:
+
     languages:
       - idiom:
         level:
@@ -31,12 +39,6 @@ sidebar:
     interests:
       - item:
         link:
-
-education:
-    - degree:
-      university:
-      time:
-      details:
 
 career-profile:
     title: Career Profile
