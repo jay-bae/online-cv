@@ -45,7 +45,7 @@ career-profile:
       2012년 다음커뮤니케이션의 치즈라는 커뮤니티 앱개발을 시작으로 다음카페 개발을 담당하였으며,
       카카오와의 합병 후에는 카카오픽 운영과 카카오스타일앱 리빌딩을 주도하였습니다.
       그 후 카카오톡의 더보기 서비스인 톡스토어와 선물하기 웹뷰 서비스를 개발하였고,
-      조직 이동으로 카카오의 포털 앱인 다음앱 개발을 담당하였습니다.
+      조직 이동으로 카카오의 포털 서비스인 다음앱 개발을 담당하였습니다.
 educations:
     - degree: MSc in Computer Science
       university: University of London
@@ -102,22 +102,33 @@ experiences:
       time: 2014.10 - 2015.02
       company: Lead iOS Developer, Objective-C
       details: |
-        매일 11시 핫딜 상품들을 큐레이션 해주고, 친구에게 공유하면 가격을 할인해주는 카톡 친구 기반의 커머스 앱입니다. 앱에 대한 유지보수로 코드 리팩토링과 버그픽스에 기여하였습니다.
+        매일 11시 핫딜 상품들을 큐레이션 해주고, 친구에게 공유하면 가격을 할인해주는 카톡 친구 기반의 커머스 앱입니다. 
+        앱에 대한 유지보수로 코드 리팩토링과 버그픽스에 기여하였습니다.
+
          - Scheme Actions 정리와 Push Notification에 대한 Lifecycle Logic 리팩토링 
          - BannerView와 Toast Layer View 제작
          - 각종 버그 픽스 및 크래시를 수정하였습니다.
 
     - role: 다음카페
-      time: 2013.05 - 2014.09
-      company: Lead iOS Developer, Objective-C
+      time: 2012.09 - 2014.09
+      company: iOS Developer, Objective-C
       details: |
-        다음의 대표적인 커뮤니티 서비스인 다음카페의 모바일앱을 개편하는 프로젝트에 참여하여, 새로운 카 페 iOS앱 제작을 진행하였습니다. iOS 개발리더로 참여하여 프로젝트 설계 및 일정관리를 진행하였고, 카페홈, 테마, 채팅, 글쓰기 등을 개발하였습니다.
+        다음의 대표적인 커뮤니티 서비스인 다음카페의 모바일앱을 개편하는 프로젝트에 참여하여, 새로운 카 페 iOS앱 제작을 진행하였습니다. 
+        iOS 개발리더로 참여하여 프로젝트 설계 및 일정관리를 진행하였고, 카페홈, 테마, 채팅, 글쓰기 등을 개발하였습니다.
+
         - 프로젝트 설계 및 일정관리
         - Custom TabBar (Main/Sub Menu)
         - 카페테마 (NavigationBar, TabBar에 Color Theme 기능)
         - 카페채팅 (CocoaAsyncSocket Library를 이용한 웹소켓 채팅 구현) - 글쓰기 개발 (웹에디터, 사진첨부, 임시저장(CoreData))
         - Instruments의 UIAutomation으로 사용성 테스트 진행
    
+    - role: 치즈
+      time: 2012.03 - 2012.08
+      company: iOS Developer, Objective-C
+      details: |
+        TV 방송 컨텐츠를 바탕으로 커뮤니케이션을 할수 있는 기능을 제공하는 서비스입니다.
+        방송에 관한 기사, 편성표, 실시간 인기, 투표, 게시판 등의 기능들을 제공합니다.
+
 projects:
     title: Projects
     intro: >
