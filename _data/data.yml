@@ -3,11 +3,11 @@
 #
 
 sidebar:
-    education: False # set to False if you want education in main section instead of in sidebar
-    languages: False
-    interests: False
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-
+    _educations: False
+    _languages: False
+    _Interests: False
+    _about: False
+    
     # Profile information
     name: Jisu Bae
     tagline: iOS Developer
@@ -15,93 +15,115 @@ sidebar:
 
     # Sidebar links
     email: jb0819@gmail.com
-    phone: 010 8719 2353
-    website:  #do not add http://
+    phone: 010-8719-2353
     linkedin: jisu-bae
     github: jay-bae
-    gitlab: 
-    bitbucket:
-    twitter: #'@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-
-    education:
-      - degree:
-        university:
-        time:
-        details:
 
     languages:
-      - idiom:
-        level:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
 
     interests:
-      - item:
+      - item: Climbing
+        link:
+
+      - item: Snowboarding
+        link:
+
+      - item: Cooking
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      2007년 Front-end Engineer로 다음커뮤니케이션에 입사하여 카페, 블로그, 요즘 등 
-      커 뮤니티 서비스를 개발하며 5년 동안 Front-end 기술력을 쌓았고, 
-      2012년부터 iOS Engineer로 전향하여 요즘, 치즈, 카페앱을 개발하였습니다. 
-      2014년에는 다음커뮤니케 이션과 카카오와의 합병으로 커머스 조직으로 이동하여 카카오픽 개발과 
-      카카오스타일 앱을 신규로 제작하였습니다. 그 후 웹뷰 기반인 핫딜, 톡스토어, 선물하기 서비스를 개발하며 
-      커머스 도메인 경력을 쌓았습니다. 선물하기 개발팀에서는 Back-end 역할로 여러 프로젝트에 참여 하였으며 
-      분사로 인한 조직이동으로 포털앱개발팀으로 이동하여 다음 앱 개발을 담당하였습니다.
-
+      2012년 다음커뮤니케이션의 치즈라는 커뮤니티 앱개발을 시작으로 다음카페 개발을 담당하였으며,
+      카카오와의 합병 후에는 카카오픽 운영과 카카오스타일앱 리빌딩을 주도하였습니다.
+      그 후 카카오톡의 더보기 서비스인 톡스토어와 선물하기 웹뷰 서비스를 개발하였고,
+      조직 이동으로 카카오의 포털 앱인 다음앱 개발을 담당하였습니다.
+educations:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 다음
+      time: 2019.02 - 2019.04
+      company: Senior iOS Developer, Swift
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        이미지 다운로드 기능 개선, UI 개선 작업 등 다음 포털앱에 대한 유지보수를 담당하였습니다.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 카카오톡 더보기
+      time: 2016.04 - 2019.01
+      company: Senior iOS Developer, Objective-C
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        카카오톡 더보기의 선물하기, 쇼핑하기 서비스를 담당하였습니다.<br />
+        카톡내 in-app browser로 serving하는 서비스들로 WebKit의 WKWebView로 제작하였습니다.
+        웹뷰에 사용되는 Cookies 조작과 Web Front와의 Javascript 연동, Scheme을 통한 interactions 등 을 개발하였습니다.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: 카카오스타일
+      time: 2015.03 - 2015.12
+      company: Lead iOS Developer, Objective-C
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        패션 쇼핑몰들의 상품들을 큐레이션하는 광고 플랫폼 서비스입니다.<br />
+        외주화 되어있던 개발영역을 내재화하는 프로젝트를 리딩하여 카카오스타일 앱을 신규로 제작하였습니다.<br />
+        설계부터 구현까지 메인 개발 자로써 리딩하였습니다.
+        
+         - Storyboard와 Segue를 이용하여 전체적인 UI 구성과 뷰간의 화면전환 및 동선을 구현하였습니다.
+         - 다양한 모습의 상품큐레이션을 위한 ScrollView, TableView, CollectionView에 대한 Customize 를 개발하였습니다.
+         - AFNewworking을 이용한 Rest API Manager모듈을 개발 (Error/Logging/Authentication 관리 및 HTTP 메소드별 인터페이스 구축)
+         - Crashlytics을 이용한 크래시 관리
+         - Instruments의 Allocations, Leaks, Activity Monitor를 이용한 성능관리 및 메모리 누수관리
 
-          - Bullet point
-          - Bullet point
+    - role: 카카오픽
+      time: 2014.10 - 2015.02
+      company: Lead iOS Developer, Objective-C
+      details: |
+        매일 11시 핫딜 상품들을 큐레이션 해주고, 친구에게 공유하면 가격을 할인해주는 카톡 친구 기반의 커머스 앱입니다. 앱에 대한 유지보수로 코드 리팩토링과 버그픽스에 기여하였습니다.
+         - Scheme Actions 정리와 Push Notification에 대한 Lifecycle Logic 리팩토링 
+         - BannerView와 Toast Layer View 제작
+         - 각종 버그 픽스 및 크래시를 수정하였습니다.
 
+    - role: 다음카페
+      time: 2013.05 - 2014.09
+      company: Lead iOS Developer, Objective-C
+      details: |
+        다음의 대표적인 커뮤니티 서비스인 다음카페의 모바일앱을 개편하는 프로젝트에 참여하여, 새로운 카 페 iOS앱 제작을 진행하였습니다. iOS 개발리더로 참여하여 프로젝트 설계 및 일정관리를 진행하였고, 카페홈, 테마, 채팅, 글쓰기 등을 개발하였습니다.
+        - 프로젝트 설계 및 일정관리
+        - Custom TabBar (Main/Sub Menu)
+        - 카페테마 (NavigationBar, TabBar에 Color Theme 기능)
+        - 카페채팅 (CocoaAsyncSocket Library를 이용한 웹소켓 채팅 구현) - 글쓰기 개발 (웹에디터, 사진첨부, 임시저장(CoreData))
+        - Instruments의 UIAutomation으로 사용성 테스트 진행
+   
 projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
       - title: Velocity
         link: "#hook"
@@ -129,7 +151,6 @@ publications:
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-
     papers:
       - title: The Art of Computer Programming
         authors: Donald E. Knuth
@@ -166,4 +187,5 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
+    Contact - <a href="mailto:{{ jb0819@gmail.com }}">이메일</a> <a href="https://linkedin.com/in/jisu-bae" target="_blank">링크드인</a>

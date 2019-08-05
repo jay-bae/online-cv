@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
     background: $smoky-white;
-    font-size: 15px;
+    font-size: 14px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -42,7 +42,7 @@ p {
     right: 0;
     width: 280px;
     height: 100%;
-    min-height: 800px;
+    min-height: 400px;
     color: #fff;
     a {
         color: #fff;
@@ -160,7 +160,7 @@ p {
     .section-title {
         text-transform: uppercase;
         font-size: 30px;
-        font-weight: 500;
+        font-weight: 700;
         color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
@@ -170,8 +170,13 @@ p {
         margin-bottom: 60px;
     }
 
+    .summary-section {
+        font-size: 16px;
+    }
+
     .experiences-section, .educations-section {
         .item {
+            margin-top: 30px;
             margin-bottom: 30px;
         }
     }
@@ -185,7 +190,7 @@ p {
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 500;
+        font-weight: 700;
     }
     .time {
         position: absolute;
@@ -259,7 +264,7 @@ p {
 
 
 .footer {
-    padding-top: 30px;
+    padding: 30px 0;
     .copyright {
         line-height: 1.6;
         color: $text-color-secondary;
