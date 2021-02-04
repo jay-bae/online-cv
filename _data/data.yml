@@ -10,8 +10,8 @@ sidebar:
     
     # Profile information
     name: Jisu Bae
-    tagline: iOS Developer
-    avatar: emoji_profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Senior iOS Developer
+    avatar: emoji_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jb0819@gmail.com
@@ -42,10 +42,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      2012년 다음커뮤니케이션의 치즈라는 커뮤니티 앱개발을 시작으로 다음카페 개발을 담당하였으며,
-      카카오와의 합병 후에는 카카오픽 운영과 카카오스타일앱 리빌딩을 주도하였습니다.
-      그 후 카카오톡의 더보기 서비스인 톡스토어와 선물하기 웹뷰 서비스를 개발하였고,
-      조직 이동으로 카카오의 포털 서비스인 다음앱 개발을 담당하였습니다.
+      2012년 다음커뮤니케이션에서 카페, 요즘 앱 운영을 시작으로 하이브리드 앱인 치즈를 개발하고, 
+      다음카페앱 2.0 프로젝트에는 기술 리드로 참여하여 런칭에 기여하였습니다. 
+      카카오에서는 커머스 조직에 근무하며 카카오픽 운영과 카카오스타일 앱을 신규로 제작하여 런칭하였고, 
+      카카오톡 더보기에 제공되는 핫딜, 메이커스, 선물하기 등의 웹뷰 기반 서비스들도 개발하였습니다.
+      그 후 새로운 도전을 위해 카카오를 퇴사하고 핀테크 스타트업인 카사코리아에 입사하여 KASA라는 앱 을 개발하고 런칭하였습니다.
+      항상 새로운 일에 도전하며 동료들과 소통하고 협업하여 사용자들에게 새로운 가치를 줄 수 있는 서비스 를 만들어내는걸 목표로 하는 엔지니어입니다.
 educations:
     - degree: MSc in Computer Science
       university: University of London
@@ -58,35 +60,39 @@ educations:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
 experiences:
+    - role: KASA
+      time: 2020.02 - 2021.02
+      company: Senior iOS Developer
+      details: |
+        상업용 빌딩을 DABS(디지털 자산유동화 증권)으로 변환하여 거래를 할 수 있는 플랫폼 앱을 개발함.
+        - 은행 연동을 위한 코디네이터 개발 및 하나은행 연동 플로우를 개발
+        - 은행 입/출금에 필요한 ARS연동, 은행 가입 플로우에 필요한 웹뷰 스킴 개발
+        - 트레이딩을 위한 오더북 UI 및 인터렉션 개발
+        - Row/Column viewModel 기반으로 Sorting Table 개발
+        - 다양한 레이아웃의 Custom Components 개발
+        - Deep Link위한 Branch와 Push notification을 위한 OneSignal 라이브러리 연동
+      techstack: Swift, Cocoapods, RxSwift, Snapkit, Teamcity
+
     - role: 다음
       time: 2019.02 - 2019.04
-      company: Senior iOS Developer, Swift
+      company: Senior iOS Developer
       details: |
         이미지 다운로드 기능 개선, UI 개선 작업 등 다음 포털앱에 대한 유지보수를 담당하였습니다.
+      techstack: Swift, Cocoapods, Snapkit, Jenkins
 
     - role: 카카오톡 더보기
       time: 2016.04 - 2019.01
-      company: Senior iOS Developer, Objective-C
+      company: Senior iOS Developer
       details: |
         카카오톡 더보기의 선물하기, 쇼핑하기 서비스를 담당하였습니다.<br />
         카톡내 in-app browser로 serving하는 서비스들로 WebKit의 WKWebView로 제작하였습니다.
         웹뷰에 사용되는 Cookies 조작과 Web Front와의 Javascript 연동, Scheme을 통한 interactions 등 을 개발하였습니다.
+      techstack: Objective-C, WKWebview, Cocoapods, AutoLayout, Jenkins
 
     - role: 카카오스타일
       time: 2015.03 - 2015.12
-      company: Lead iOS Developer, Objective-C
+      company: Lead iOS Developer
       details: |
         패션 쇼핑몰들의 상품들을 큐레이션하는 광고 플랫폼 서비스입니다.<br />
         외주화 되어있던 개발영역을 내재화하는 프로젝트를 리딩하여 카카오스타일 앱을 신규로 제작하였습니다.<br />
@@ -97,6 +103,7 @@ experiences:
          - AFNewworking을 이용한 Rest API Manager모듈을 개발 (Error/Logging/Authentication 관리 및 HTTP 메소드별 인터페이스 구축)
          - Crashlytics을 이용한 크래시 관리
          - Instruments의 Allocations, Leaks, Activity Monitor를 이용한 성능관리 및 메모리 누수관리
+      techstack: Objective-C, Cocoapods, Storyboard, Fabric, Jenkins
 
     - role: 카카오픽
       time: 2014.10 - 2015.02
@@ -108,6 +115,7 @@ experiences:
          - Scheme Actions 정리와 Push Notification에 대한 Lifecycle Logic 리팩토링 
          - BannerView와 Toast Layer View 제작
          - 각종 버그 픽스 및 크래시를 수정하였습니다.
+      techstack: Objective-C, Cocoapods, Crashlytics
 
     - role: 다음카페
       time: 2012.09 - 2014.09
@@ -121,13 +129,15 @@ experiences:
         - 카페테마 (NavigationBar, TabBar에 Color Theme 기능)
         - 카페채팅 (CocoaAsyncSocket Library를 이용한 웹소켓 채팅 구현) - 글쓰기 개발 (웹에디터, 사진첨부, 임시저장(CoreData))
         - Instruments의 UIAutomation으로 사용성 테스트 진행
-   
+      techstack: Objective-C, Cocoapods, Crashlytics
+
     - role: 치즈
       time: 2012.03 - 2012.08
       company: iOS Developer, Objective-C
       details: |
         TV 방송 컨텐츠를 바탕으로 커뮤니케이션을 할수 있는 기능을 제공하는 서비스입니다.
         방송에 관한 기사, 편성표, 실시간 인기, 투표, 게시판 등의 기능들을 제공합니다.
+      techstack: Objective-C
 
 projects:
     title: Projects
