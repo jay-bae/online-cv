@@ -107,7 +107,7 @@ experiences:
 
     - role: 카카오픽
       time: 2014.10 - 2015.02
-      company: Lead iOS Developer, Objective-C
+      company: Lead iOS Developer
       details: |
         매일 11시 핫딜 상품들을 큐레이션 해주고, 친구에게 공유하면 가격을 할인해주는 카톡 친구 기반의 커머스 앱입니다. 
         앱에 대한 유지보수로 코드 리팩토링과 버그픽스에 기여하였습니다.
@@ -119,7 +119,7 @@ experiences:
 
     - role: 다음카페
       time: 2012.09 - 2014.09
-      company: iOS Developer, Objective-C
+      company: iOS Developer
       details: |
         다음의 대표적인 커뮤니티 서비스인 다음카페의 모바일앱을 개편하는 프로젝트에 참여하여, 새로운 카 페 iOS앱 제작을 진행하였습니다. 
         iOS 개발리더로 참여하여 프로젝트 설계 및 일정관리를 진행하였고, 카페홈, 테마, 채팅, 글쓰기 등을 개발하였습니다.
@@ -133,7 +133,7 @@ experiences:
 
     - role: 치즈
       time: 2012.03 - 2012.08
-      company: iOS Developer, Objective-C
+      company: iOS Developer
       details: |
         TV 방송 컨텐츠를 바탕으로 커뮤니케이션을 할수 있는 기능을 제공하는 서비스입니다.
         방송에 관한 기사, 편성표, 실시간 인기, 투표, 게시판 등의 기능들을 제공합니다.
